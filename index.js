@@ -141,4 +141,4 @@ client.on('interactionCreate', async interaction => {
 });
 
 
-client.login(TOKEN);
+client.login(process.env.TOKEN);

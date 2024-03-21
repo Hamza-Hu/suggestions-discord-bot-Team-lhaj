@@ -11,8 +11,8 @@ const userVotes = {};
 
 client.once('ready', () => {
     console.log('Bot is online!');
-    console.log('Code by Wick Studio');
-    console.log('discord.gg/wicks');
+    console.log('Code by MRAKCHI');
+    console.log('discord.gg/teamlhaj');
 });
 
 client.on('messageCreate', message => {

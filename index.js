@@ -5,7 +5,7 @@ const client = new Client({
 });
 
 const suggestionChannelId = config.suggestionChannelId;
-const TOKEN = config.TOKEN;
+const TOKEN = env.TOKEN;
 const approverRoleId = config.approverRoleId;
 const userVotes = {};
 
